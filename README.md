@@ -18,16 +18,16 @@ Si tu veux travailler en local avec ton propre IDE, voici la marche à suivre :
    git clone <URL_DU_DEPOT>
    
 2. Se déplacer dans le dossier du projet
-  ```bash
+
 cd <NOM_DU_PROJET>
 
 3. Installer les dépendances nécessaires
 (assure-toi d’avoir Node.js et npm installés, idéalement via nvm)
-```bash
+
 npm install
 
 4. Lancer le serveur de développement avec rechargement automatique et aperçu instantané :
-```bash
+
 npm run dev
 
 🔹 Utiliser GitHub Codespaces
@@ -55,3 +55,4 @@ Ce projet est construit avec :
 🎨 shadcn-ui – composants élégants et accessibles
 
 💅 Tailwind CSS – pour un style rapide, efficace et maintenable
+
