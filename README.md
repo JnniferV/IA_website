@@ -1,52 +1,57 @@
-## Project info
+# 📌 Infos du projet
 
-## How can I edit this code?
+Bienvenue dans ce projet ! 🚀  
+Voici toutes les infos dont tu as besoin pour démarrer, contribuer et comprendre l’environnement technique utilisé.
 
-There are several ways of editing your application.
+---
 
-**Use your preferred IDE**
+## ✏️ Comment modifier ce code ?
 
-If you want to work locally using your own IDE, you can clone this repo and push changes.
+Tu as plusieurs façons d’éditer l’application :
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🔹 Utiliser ton IDE préféré (localement)
 
-Follow these steps:
+Si tu veux travailler en local avec ton propre IDE, voici la marche à suivre :
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. **Cloner le dépôt avec l’URL Git du projet**  
+   ```bash
+   git clone <URL_DU_DEPOT>
+   
+2. Se déplacer dans le dossier du projet
+  ```bash
+cd <NOM_DU_PROJET>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. Installer les dépendances nécessaires
+(assure-toi d’avoir Node.js et npm installés, idéalement via nvm)
+```bash
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Lancer le serveur de développement avec rechargement automatique et aperçu instantané :
+```bash
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+🔹 Utiliser GitHub Codespaces
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Va sur la page principale du dépôt.
 
-**Use GitHub Codespaces**
+Clique sur le bouton vert "Code" en haut à droite.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Sélectionne l’onglet "Codespaces".
 
-## What technologies are used for this project?
+Clique sur "New codespace" pour lancer un nouvel environnement en ligne.
 
-This project is built with:
+Édite tes fichiers dans le Codespace, puis commit & push tes changements.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🛠️ Technologies utilisées
 
+Ce projet est construit avec :
+
+⚡ Vite – pour un bundling ultra rapide
+
+🟦 TypeScript – typage robuste et plus de sérénité au dev
+
+⚛️ React – la base du front-end moderne
+
+🎨 shadcn-ui – composants élégants et accessibles
+
+💅 Tailwind CSS – pour un style rapide, efficace et maintenable
